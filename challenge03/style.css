@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1 {
+  margin: 0;
+  font-family: Roboto;
+}
+.section {
+  background-color: #23424a;
+  color: #ffff;
+}
+.container {
+  min-height: 100vh;
+
+  display: grid;
+  align-items: center;
+  max-width: 1160px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.title {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 2.38rem;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: rgba(255, 255, 255, 0.85);
+
+  margin-bottom: 4.38rem;
+}
+
+.cta-btn {
+  border: 0;
+  outline: none;
+  border-radius: 100000px;
+  background: #38cfd9;
+
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  padding: 0.8em 2.3em;
+  text-transform: uppercase;
+  color: #072a2d;
+}
