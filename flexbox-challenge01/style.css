@@ -100,3 +100,7 @@ h1 {
   background: #136c72;
   color: #fff;
 }
+
+.d-flex {
+  display: flex;
+}
