@@ -74,13 +74,21 @@ header {
   padding: 1em 0;
 }
 
+.logo {
+  margin-right: 1em;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
+  flex-grow: 1;
+  /* width: 100%; */
 }
 
 .nav__list {
   display: flex;
+  align-items: center;
+
   gap: 1em;
   margin: 0;
   padding: 0;
