@@ -74,6 +74,11 @@ header {
   padding: 1em 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav__list {
   display: flex;
   gap: 1em;
