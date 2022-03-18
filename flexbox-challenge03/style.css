@@ -99,6 +99,10 @@ header {
   opacity: 0.75;
 }
 
+.nav__item--push-right {
+  margin-left: auto;
+}
+
 .hero {
   padding: 100px 0;
   background-color: #23424a;
