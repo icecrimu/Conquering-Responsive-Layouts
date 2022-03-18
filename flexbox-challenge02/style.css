@@ -90,3 +90,27 @@ h1 {
 .btn:focus {
   opacity: 0.75;
 }
+
+.main {
+  margin-top: 3em;
+}
+
+.primary-content {
+  width: 62%;
+}
+
+.section-title {
+  color: #136c72;
+}
+
+.sidebar {
+  width: 32%;
+  text-align: center;
+  padding: 1em;
+  color: #fff;
+  background: #136c72;
+}
+
+.sidebar-title {
+  color: #fff;
+}
