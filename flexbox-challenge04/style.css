@@ -9,3 +9,39 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.3rem;
 }
+
+.container {
+  max-width: 70.5rem;
+  min-height: 41.25rem;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background: #f3eed9;
+}
+
+.hero__text {
+  text-align: center;
+}
+
+.hero__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.75rem;
+  font-weight: 900;
+  color: #824936;
+  text-align: center;
+
+  margin-top: 0;
+}
+
+.hero__subtitle {
+  font-size: 1.125rem;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+}
