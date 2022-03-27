@@ -52,6 +52,10 @@ section {
   padding: 200px 0;
   text-align: center;
   color: #824936;
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .intro__text {
